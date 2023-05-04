@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a, b, c, menor
+        menor=parseInt (prompt("Insira um número: "))
+        b =parseInt (prompt("Insira um número: "))
+        c =parseInt (prompt("Insira um número: "))
+
+        if (menor<c && menor<b ){
+        document.write("O menor número é: ",menor)
+        }
+        else if (b<menor && b<c){
+            menor = b
+            document.write("O menor número é: ",menor)
+        }
+        else {menor =c
+        document.write("O menor número é: ",menor)
+        }
+
+
+    </script>
+</body>
+</html>

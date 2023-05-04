@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a, b, mq, preco, precof
+        a =parseInt(prompt("Insira o valor em metros da largura do terreno"))
+        b =parseInt(prompt("Insira o valor em metros do comprimento do terreno"))
+        mq = a*b
+        document.write("O terreno tem ",mq,"m²")
+        document.write("<hr>")
+        preco =parseInt(prompt("Qual o valor do m²?"))
+        precof = preco*mq
+        document.write("O preço do m² do terreno é de R$", preco,", então, seu valor é: R$",precof)
+
+
+        
+    </script>
+</body>
+</html>
